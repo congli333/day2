@@ -1,0 +1,117 @@
+html, body, .wrapper {
+  width: 100%;
+  height: 100%; }
+
+.btn {
+  width: 1rem;
+  height: 0.4rem;
+  border: 0;
+  margin: .3rem;
+  background: #09f;
+  color: #fff;
+  border-radius: .05rem;
+  font-size: .28rem; }
+
+.box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 0.5rem;
+  background: #393a3f;
+  position: relative;
+  padding: 0 .48rem; }
+  .header span {
+    position: absolute;
+    font-size: .18rem;
+    color: #fff;
+    top: .15rem; }
+    .header span:first-child {
+      left: .15rem; }
+    .header span:last-child {
+      right: .15rem; }
+    .header span em {
+      display: block;
+      width: .05rem;
+      height: .05rem;
+      border-radius: 50%;
+      background: #fff;
+      margin: .02rem 0; }
+  .header p {
+    font-size: .2rem;
+    padding-left: .15rem;
+    color: #fff;
+    border-left: 1px solid #1b1b1d;
+    line-height: .26rem;
+    margin-top: .12rem; }
+
+.main {
+  flex: 1;
+  display: relative; }
+
+.inset {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: .1rem; }
+
+.top {
+  text-align: center;
+  padding-top: .32rem;
+  width: 100%;
+  height: auto; }
+  .top img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 0 auto; }
+  .top h3 {
+    font-size: .16rem;
+    color: #46494e;
+    line-height: .42rem; }
+
+.form {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: .85rem; }
+  .form p {
+    margin-top: .34rem;
+    height: .37rem;
+    border-bottom: 1px solid #878988;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: .15rem; }
+    .form p:last-child {
+      border: 0;
+      padding: 0; }
+      .form p:last-child button {
+        width: 100%;
+        height: 0.38rem;
+        background: #2fba77;
+        font-size: .14erm;
+        color: #fff;
+        border: 0;
+        border-radius: .05rem; }
+    .form p img {
+      width: 0.14rem;
+      height: auto; }
+    .form p input {
+      flex: 1;
+      border: 0;
+      padding-left: .15rem;
+      font-size: .14rem; }
+
+/*# sourceMappingURL=style.css.map */
